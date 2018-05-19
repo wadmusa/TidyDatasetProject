@@ -1,0 +1,16 @@
+## The Tidy Data set
+The data was collecetd mainly to analyze human activity using information provided by the accelator in Samsung smartphone. 
+The data is from the following link:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+The dataset was splitted into two parts, training set and testing set. The data consisted of the features or the independent variables 
+and the label or the dependent variable which represents the activity.
+
+## The Code
+The R function download.file was used to download the dataset from the repository. Unzip to extract the dataset and was placed into data 
+directory. Columns were created using the R command, colnames. R command, cbind was used to combine the training set and the test set. 
+Here is the description of the variables:
+  
+Subject: A numeric identifier assigned to the test subject of the type integer
+Activity: A description of the activity of the type factor
+Measurement: The description of the measurement of the type factor
+Mean: The mean of the measurements of the type numeric
